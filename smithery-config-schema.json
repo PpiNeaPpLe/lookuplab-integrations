@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "apiKey": {
+      "type": "string",
+      "title": "LookupLab API key",
+      "description": "Your LookupLab API key. Successful checks use account credits.",
+      "writeOnly": true,
+      "x-from": { "header": "x-api-key" },
+      "x-to": { "header": "x-api-key" }
+    }
+  },
+  "required": ["apiKey"]
+}
