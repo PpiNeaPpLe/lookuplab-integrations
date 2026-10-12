@@ -4,6 +4,20 @@ Phone carrier, email-domain, IP-network and DNS checks through [LookupLab](https
 
 Find LookupLab on [Smithery](https://smithery.ai/servers/jude/lookuplab) and in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.PpiNeaPpLe%2Flookuplab/versions/1.0.0).
 
+## Claude web and Desktop
+
+1. Open **Customize > Connectors > Add custom connector**. Name it LookupLab and use `https://lookuplab.io/api/mcp`.
+2. Choose **Sign in now** and **Register automatically** if Claude shows authentication options. Leave a custom client ID and secret blank.
+3. On LookupLab's consent page, enter your [LookupLab key](https://lookuplab.io/dashboard/) and approve. Enable the connector in your chat. Try: "Check the mail records for example.com."
+
+Your key goes only to LookupLab; Claude receives a revocable OAuth connection. On Team and Enterprise plans, an owner first adds the connector, then each member connects their account. See [Claude's connector setup](https://claude.com/docs/connectors/custom/add-unlisted).
+
+## Claude Code
+
+Set `LOOKUPLAB_API_KEY` privately in your environment, then merge [claude-code.mcp.json](claude-code.mcp.json) into your project's `.mcp.json`. Start Claude Code in that project, approve LookupLab when prompted, and check `/mcp`. Keep the variable reference in the file; never replace it with a real key in a shared repository.
+
+The config uses Claude Code's [HTTP transport and environment expansion](https://code.claude.com/docs/en/mcp). Try: "Check the mail records for example.com."
+
 ## Gemini CLI
 
 Install with `gemini extensions install https://github.com/PpiNeaPpLe/lookuplab-integrations`. Supply your existing LookupLab API key in the extension's sensitive setting. Gemini stores this setting in its system keychain when available. Never put a key in a chat message.

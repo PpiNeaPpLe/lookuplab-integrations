@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lookuplab": {
+      "type": "http",
+      "url": "https://lookuplab.io/api/mcp",
+      "headers": {
+        "X-API-Key": "${LOOKUPLAB_API_KEY}"
+      }
+    }
+  }
+}
