@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.PpiNeaPpLe/lookuplab",
+  "title": "LookupLab",
+  "description": "Phone carrier, email domain, IP network and DNS checks using your LookupLab account.",
+  "version": "1.0.0",
+  "repository": { "url": "https://github.com/PpiNeaPpLe/lookuplab-integrations", "source": "github" },
+  "websiteUrl": "https://lookuplab.io/mcp/",
+  "remotes": [{ "type": "streamable-http", "url": "https://lookuplab.io/api/mcp", "headers": [{ "name": "X-API-Key", "description": "Your LookupLab API key", "isRequired": true, "isSecret": true }] }]
+}

@@ -1,0 +1,4 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": { "lookuplab": { "type": "streamable-http", "url": "https://lookuplab.io/api/mcp" } }
+}

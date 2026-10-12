@@ -1,0 +1,8 @@
+{
+  "name": "lookuplab",
+  "version": "1.0.0",
+  "description": "Check phone carriers, email domains, IP networks and DNS records with your LookupLab account.",
+  "contextFileName": "GEMINI.md",
+  "settings": [{ "name": "LookupLab API key", "description": "Your existing LookupLab key. Store it in this secure setting, never in chat.", "envVar": "LOOKUPLAB_API_KEY", "sensitive": true }],
+  "mcpServers": { "lookuplab": { "httpUrl": "https://lookuplab.io/api/mcp", "headers": { "Authorization": "Bearer ${LOOKUPLAB_API_KEY}" } } }
+}
