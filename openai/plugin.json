@@ -1,9 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lookuplab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check phone carriers, email domains, IP networks and DNS records using your connected LookupLab account.",
-  "author": { "name": "Everyday Software", "email": "jude@everydaysoftware.ai", "url": "https://lookuplab.io" },
+  "author": { "name": "Everyday Software LLC", "email": "jude@everydaysoftware.ai", "url": "https://lookuplab.io" },
   "homepage": "https://lookuplab.io/mcp/",
   "keywords": ["phone", "carrier", "email", "dns", "validation"],
   "extensions": {
@@ -12,7 +12,7 @@
         "displayName": "LookupLab",
         "shortDescription": "Check phone, email, IP and DNS",
         "longDescription": "Check a phone number's carrier and line type, inspect an email's syntax and domain, look up approximate IP location and network, or inspect MX, SPF, DMARC and DKIM records. Connect your existing LookupLab account with OAuth. Successful checks debit account credits. The plugin does not place calls, send messages, change DNS, sell credits or manage subscriptions. Carrier data does not verify a person's identity or consent. Email checks do not prove mailbox ownership or guarantee delivery. IP location is approximate and some network fields may be unavailable.",
-        "developerName": "Everyday Software",
+        "developerName": "Everyday Software LLC",
         "category": "Developer Tools",
         "capabilities": ["Phone carrier and line type", "Email syntax and domain checks", "IP location and network", "Email DNS inspection"],
         "websiteURL": "https://lookuplab.io/mcp/",
@@ -43,7 +43,7 @@
         "commerce": false,
         "commerce_description": "Uses an existing connected LookupLab account. No purchases, credit sales or subscription upgrades are offered inside the plugin."
       },
-      "publication": { "release_notes": "Initial four-tool release with OAuth account connection and explicit usage accounting." }
+      "publication": { "release_notes": "Explicit registered OAuth client configuration, issuer discovery and publisher metadata for the four-tool LookupLab integration." }
     }
   }
 }
