@@ -2,6 +2,8 @@
 
 Phone carrier, email-domain, IP-network and DNS checks through [LookupLab](https://lookuplab.io/mcp/).
 
+Find LookupLab on [Smithery](https://smithery.ai/servers/jude/lookuplab) and in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.PpiNeaPpLe%2Flookuplab/versions/1.0.0).
+
 ## Gemini CLI
 
 Install with `gemini extensions install https://github.com/PpiNeaPpLe/lookuplab-integrations`. Supply your existing LookupLab API key in the extension's sensitive setting. Gemini stores this setting in its system keychain when available. Never put a key in a chat message.
