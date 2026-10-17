@@ -1,5 +1,7 @@
 # LookupLab integrations
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/ppineapple-lookuplab-integrations-czyq6i?v=6214a60100c0b57734ab1289d926b17e)](https://m8ven.ai/mcp/ppineapple-lookuplab-integrations-czyq6i?s=readme)
+
 Phone carrier, email-domain, IP-network and DNS checks through [LookupLab](https://lookuplab.io/mcp/).
 
 Find LookupLab on [Smithery](https://smithery.ai/servers/jude/lookuplab) and in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.PpiNeaPpLe%2Flookuplab/versions/1.0.0).
